@@ -1,21 +1,39 @@
 {
   "name": "bombcryto2025",
   "version": "1.0.0",
-  "description": "",
+  "description": "BombCrypto 2025 - A Web3 game built with React + Phaser",
+  "type": "module",
   "scripts": {
-    "dev": "parcel public/index.html",
-    "build": "parcel build public/index.html --dist-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
+  "keywords": [
+    "game",
+    "phaser",
+    "react",
+    "web3",
+    "blockchain",
+    "bombcrypto"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "phaser": "^3.90.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "phaser": "^3.90.0",
+    "pathfinding": "^0.4.18",
+    "zustand": "^4.4.7",
+    "axios": "^1.6.0"
   },
   "devDependencies": {
-    "parcel": "^2.16.1",
-    "process": "^0.11.10"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
   }
 }
