@@ -3,8 +3,10 @@ node_modules/
 
 # Build outputs
 dist/
+dist-ssr/
 .parcel-cache/
 .cache/
+.vite/
 
 # Environment variables
 .env
